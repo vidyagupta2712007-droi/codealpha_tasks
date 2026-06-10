@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+  font-family: Arial;
+}
+.container {
+  position: relative;
+  display: inline-block;
+}
+video,
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+video {
+  width: 640px;
+  height: 480px;
+}
+canvas {
+  width: 640px;
+  height: 480px;
+}
